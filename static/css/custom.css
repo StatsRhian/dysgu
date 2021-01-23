@@ -22,7 +22,7 @@ html {
 /* link */
 
 a {
-    color: purple;
+    color: #333333;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -32,7 +32,7 @@ a:active, a:hover {
 }
 
 a:hover, a:focus {
-    color: purple;
+    color: #333333;
     text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@ hr {
 .header h1.name {
     font-weight: 600;
     font-size: 2.1875rem;
-    color: purple;
+    color: #333333;
 }
 
 .header ul.nav li {
@@ -76,7 +76,7 @@ hr {
 
 .content h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: purple;
+    color: #333333;
     margin-bottom: 1rem;
 }
 
@@ -106,7 +106,7 @@ hr {
 .content .markdown {
     font-weight: 400;
     font-size: 1.125rem;
-    color: purple;
+    color: #333333;
     line-height: 1.75rem;
 }
 
