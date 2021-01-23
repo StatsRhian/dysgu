@@ -15,7 +15,7 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 params:
-  faviconfile: images/favicon.png
+  faviconfile: images/favicon2.png
   progressively: no
   sitename: Fy Mlog Cymraeg
 markup:

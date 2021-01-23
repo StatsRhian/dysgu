@@ -4,7 +4,7 @@ menu: main
 title: Am Rhian
 ---
 
-S'mae. Rhian dw i. Dw i'n dysgwr Cymraeg sy'n byw yn Lancaster, Lloger. Dw i'n dod o Gogledd Cymry yn wreiddiol a dw i isio symud yn ôl un diwrnod.
+S'mae. Rhian dw i. Dw i'n dysgwr Cymraeg sy'n byw yn Lancaster, Lloger. Dw i'n dod o Gogledd Cymru yn wreiddiol a dw i isio symud yn ôl un diwrnod.
 
 
 <div class="figure">
