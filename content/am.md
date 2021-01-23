@@ -1,12 +1,16 @@
 ---
 date: "2020-01-01"
-description: A description of the page
 menu: main
-title: Am Rhian Davies
+title: Am Rhian
 ---
 
-Lorem ipsum dolor sit amet, ex has sale ullum corrumpit, sea dicam nostrum sensibus ad. Porro tritani persecuti te sed. Omittam dissentias pro ex. Atqui luptatum duo id. Eros minim eam ex, novum elitr accusam quo in. Nec ne audire euripidis, [mea qualisque consetetur cu](https://example.com). Suspendisse volutpat sem a risus euismod convallis.
+S'mae. Rhian dw i. Dw i'n dysgwr Cymraeg sy'n byw yn Lancaster, Lloger. Dw i'n dod o Gogledd Cymry yn wreiddiol a dw i isio symud yn ôl un diwrnod.
 
-In modus congue feugait eos. In nec nonumy volutpat corrumpit, sea assentior quaerendum no, cum affert scripta ea. No nihil voluptaria pro. [Erat democritum mei no](https://example.com), homero quodsi aliquando id mel, ridens civibus molestiae et nam.
 
-Ea eam postea facilisi. Nullam forensibus consequuntur usu ea, no ius consul delectus periculis. Eam veri numquam an. Et partiendo gubergren eam. Quod iudicabit has ex, eam diam facilisi eu, elitr aliquip no eum.
+<div class="figure">
+
+![](/images/llyn-jump.jpg)
+
+<p class="caption">Neidio o lawenydd yn Mynydd Mawr, Pen Llŷn </p>
+
+</div>

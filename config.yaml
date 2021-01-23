@@ -1,6 +1,6 @@
 baseurl: https://dysgu.netlify.app/
-title: Hugo Tanka Theme Demo
-author: Nan Xiao
+title: Fy mlog Cymraeg
+author: Rhian Davies
 canonifyurls: yes
 languagecode: en
 theme: hugo-tanka
@@ -16,14 +16,8 @@ ignoreFiles:
   - \.utf8\.md$
 params:
   faviconfile: images/favicon.png
-  highlightjs: yes
-  highlightjslanguages:
-    - r
-    - python
-    - stan
   progressively: no
-  sitename: Hugo Tanka Theme
-  uselatex: yes
+  sitename: Fy Mlog Cymraeg
 markup:
   goldmark:
     renderer:
@@ -36,4 +30,6 @@ menu:
     - name: Am
       url: /am/
       weight: 2
-
+    - name: Cyffyrddiad
+      url: http://rhian.rbind.io/
+      weight: 3

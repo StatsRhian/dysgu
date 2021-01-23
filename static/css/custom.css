@@ -1,9 +1,8 @@
 /* Global styles */
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-feature-settings: "liga", "kern";
-    background-color: #FFF000;
+    font-family: "Lato";
+    background-color: #FFF;
 }
 
 /* Fix jumping scrollbar when switching to long pages */
@@ -16,7 +15,7 @@ html {
 /* margin top */
 
 .mt-xl {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* link */
@@ -40,7 +39,7 @@ a:hover, a:focus {
 
 hr {
     border: 0;
-    border-top: 1px solid #DCDCDC;
+    border-top: 1px dotted #333;
 }
 
 .content .markdown hr {
@@ -70,6 +69,29 @@ hr {
 
 .header ul.nav {
     margin-bottom: 5rem;
+}
+
+/* Vocab alert */
+
+.alert-vocab {
+  background-color: #aedcae;
+  color: #333;
+}
+
+.alert-vocab td {
+    border-top: 1px dotted #333;
+    border-bottom: 1px dotted #333;
+    padding-top: 5px;
+}
+
+/* Hide top border */
+.alert-vocab tr:first-child td {
+    border-top: hidden;
+}
+
+/* Make Welsh column bold */
+.alert-vocab td:first-child {
+   font-weight: bold
 }
 
 /* Partial: Content */
@@ -115,10 +137,6 @@ hr {
     margin-bottom: 1rem;
 }
 
-.content twitterwidget {
-    margin: auto;
-}
-
 .content .meta, .content .markdown h1, .content .markdown h2, .content .markdown h3, .content .markdown h4, .content .markdown h5, .content .markdown h6, .content .markdown p, .content .markdown ul, .content .markdown ol, .content .markdown dl, .content .markdown blockquote, div.alert, form, table, .gist-file {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -143,47 +161,9 @@ hr {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    border-radius: 5%;
 }
 
-.content .markdown code, .content .markdown pre {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    background-color: #fff;
-}
-
-.content .markdown code {
-    /* enclosed by single backtick (`) */
-    color: #333;
-    padding: .2em .4em;
-    margin: 0;
-    font-size: 1rem;
-    background-color: rgba(27, 31, 35, .05);
-    border-radius: 6px;
-}
-
-.content .markdown pre {
-    /* Hugo specific: consider using the 'highlight' shortcode */
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    line-height: 20px;
-    white-space: pre;
-    word-break: break-all;
-    word-wrap: break-word;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-}
-
-.content .markdown pre code, .content .markdown pre output {
-    /* enclosed by 4 backticks (````) */
-    padding: 0;
-    font-size: 0.75rem;
-    line-height: 20px;
-    background-color: #fff;
-    border-radius: 0;
-}
 
 .content .markdown blockquote {
     padding: 0.5rem 0.5rem;
@@ -240,7 +220,6 @@ hr {
 }
 
 /* Partial: Utterances Comments */
-
 .comments {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
